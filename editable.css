@@ -1,0 +1,58 @@
+﻿
+
+body {
+ 
+}
+
+.ui-editable-icon {
+  position: absolute;
+  cursor:pointer;
+}
+
+.icon_remove {
+  right: 0;
+  top: 0px;
+}
+
+.icon_rotate {
+  left: 0;
+  top: 0px;
+}
+
+.icon_reflect {
+  bottom:-10px;
+  left:50%;
+  margin-left:-5px;
+}
+
+.ui-editable .text{
+  //width:100%;
+  //height:100%;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.ui-editable-selected {
+	border: 2px #bde9ba dotted;
+}
+
+.background-as-img {
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	left: 0px;
+	right:0px;
+}
+
+.reflect {
+  -webkit-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+
+
